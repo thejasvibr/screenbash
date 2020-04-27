@@ -19,7 +19,7 @@ class TouchRateCalc(Widget):
         self.touch_t = time.time()
         self.inter_touch_interval = self.touch_t - self.start_t
         self.start_t = time.time()
-        self.tap_rate = round(1.0/self.inter_touch_interval,2)
+        self.tap_rate = round(1.0/self.inter_touch_interval, 2)
         self.update_maxtap_rate(self.tap_rate)
     
     def update_maxtap_rate(self, current_rate):
