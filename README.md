@@ -6,9 +6,10 @@ Try it out and compete with your friends!!
 My first attempts at making a [Kivy](https://kivy.org/#home) based app for use on desktop and Android devices. 
 
 #### Installation
+* Click on 'View code' 
 * Go to the ```bin/``` folder and download the .apk file using your Android phone 
 * You will need to enable installation from unknown sources. Check [here](https://developer.android.com/studio/publish#unknown-sources) 
-* If the instructions in the link abovve don't seem to match with what's on your phone, [Google]() up the instructions for your particular model.
+* If the instructions in the link above don't seem to match with what's on your phone, [Google]() up the instructions for your particular model.
 
 
 Let me know how you liked the app. Ping me by email (thejasvib@gmail.com), Twitter (@BeleyurThejasvi) or yell out your feelings from a safe distance. 
