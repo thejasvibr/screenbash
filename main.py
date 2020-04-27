@@ -4,9 +4,7 @@ time between two taps on the screen and estimates the tap rate in Hz.
 '''
 from kivy.app import App
 from kivy.uix.widget import Widget
-from kivy.properties import (
-    NumericProperty, ReferenceListProperty, ObjectProperty
-)
+from kivy.properties import NumericProperty
 import time
   
 
@@ -28,10 +26,9 @@ class TouchRateCalc(Widget):
         if current_rate >= self.max_tap_rate:
             self.max_tap_rate = float(current_rate)
        
-
 class TouchRateApp(App):
     def build(self): 
-
+        self.icon = 'finger.png'
         return TouchRateCalc()
 
 
