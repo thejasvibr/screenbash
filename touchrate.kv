@@ -1,0 +1,27 @@
+
+
+<TouchRateCalc>:
+    Label:
+        font_size: 90
+        center_x: root.width / 2
+        top: root.top-100
+        text: 'Current tap rate (Hz)'
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - root.top/3
+        text: str(root.tap_rate)
+        
+    Label:
+        font_size: 70
+        center_x: root.width/2
+        top: root.top - root.top*0.6
+        text: 'Best tap rate so far'
+    Label:
+        font_size: 50
+        center_x: root.width/2
+        top: root.top - root.top*0.75
+        text: str(root.max_tap_rate)
+    
+    
+        
