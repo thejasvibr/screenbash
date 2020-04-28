@@ -1,5 +1,7 @@
 ### Screen Basher App
 
+![](finger.png)
+
 What is the highest tap-rate you can achieve, with one finger, with two and with all five? 
 Try it out and compete with your friends!! 
 
